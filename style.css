@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#image{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+}
+.serhed{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
